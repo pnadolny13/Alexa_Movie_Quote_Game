@@ -1,0 +1,25 @@
+Intent Schema
+
+
+{
+	"intents": [{
+			"intent": "YesIntent"
+		},
+		{
+			"slots": [
+				{
+					"name": "movie",
+					"type": "AMAZON.Movie"
+				}
+			],
+			"intent": "MovieIntent"
+		}
+	]
+}
+
+
+Sample Utterances
+
+YesIntent yes
+YesIntent sure
+MovieIntent {movie}

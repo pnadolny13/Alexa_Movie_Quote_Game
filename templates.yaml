@@ -1,0 +1,7 @@
+welcome: Ready to play guess the movie quote?
+
+start: What movie is this quote from? {{quote}}
+
+correctResponse: Correct! Want another one?
+
+incorrectResponse: Incorrect! Try again.
