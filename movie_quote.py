@@ -19,10 +19,10 @@ logging.getLogger("flask_ask").setLevel(logging.DEBUG)
 
 import pymysql
 #rds settings
-hostname  = "quotes-db.csha1uftlt6f.us-east-2.rds.amazonaws.com"
-username = "admin"
-password = "abcd1234"
-database = "QuotesDB"
+hostname  = ""
+username = ""
+password = ""
+database = ""
 
 @ask.launch
 
